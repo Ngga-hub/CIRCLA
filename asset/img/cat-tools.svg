@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori perkakas dan perlengkapan rumah">
+  <rect width="640" height="440" fill="#E7EBE3"/>
+  <circle cx="116" cy="100" r="52" fill="#F2E8D8"/>
+  <circle cx="116" cy="100" r="28" fill="#C2A67E"/>
+  <rect x="150" y="172" width="204" height="98" rx="24" fill="#2D3E2F"/>
+  <rect x="330" y="194" width="62" height="56" rx="14" fill="#7C8D74"/>
+  <rect x="388" y="210" width="80" height="24" rx="8" fill="#C2A67E"/>
+  <path d="M182 270h88l-24 98h-72z" fill="#2D3E2F"/>
+  <circle cx="238" cy="300" r="15" fill="#5E9E44"/>
+  <circle cx="196" cy="210" r="11" fill="#5E9E44"/>
+  <circle cx="176" cy="318" r="6" fill="#7C8D74"/>
+  <path d="M486 196l64 0 0 64-64 0z" fill="none" stroke="#7C8D74" stroke-width="10" stroke-linejoin="round" transform="rotate(45 518 228)"/>
+  <circle cx="518" cy="228" r="14" fill="#E7EBE3"/>
+  <circle cx="96" cy="352" r="12" fill="#5E9E44"/>
+  <rect x="470" y="330" width="34" height="34" rx="8" fill="#C2A67E" transform="rotate(-18 487 347)"/>
+</svg>

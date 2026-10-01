@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori acara dan pesta">
+  <rect width="640" height="440" fill="#F4E9D8"/>
+  <path d="M132 0l104 320H28z" fill="#EDDFC8"/>
+  <path d="M508 0l104 320H404z" fill="#EDDFC8"/>
+  <circle cx="320" cy="404" r="22" fill="#E2CFAF"/>
+  <rect x="212" y="148" width="216" height="228" rx="26" fill="#2D3E2F"/>
+  <circle cx="320" cy="212" r="37" fill="#5E9E44"/>
+  <circle cx="320" cy="308" r="57" fill="#7C8D74"/>
+  <circle cx="320" cy="308" r="21" fill="#2D3E2F"/>
+  <circle cx="122" cy="212" r="12" fill="#5E9E44"/>
+  <circle cx="516" cy="248" r="12" fill="#C2A67E"/>
+  <rect x="82" y="286" width="26" height="26" rx="6" fill="#C2A67E" transform="rotate(22 95 299)"/>
+  <rect x="540" y="140" width="26" height="26" rx="6" fill="#5E9E44" transform="rotate(-28 553 153)"/>
+  <rect x="538" y="336" width="22" height="22" rx="5" fill="#7C8D74" transform="rotate(16 549 347)"/>
+  <rect x="86" y="122" width="22" height="22" rx="5" fill="#7C8D74" transform="rotate(-14 97 133)"/>
+</svg>

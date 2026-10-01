@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori hiburan">
+  <rect width="640" height="440" fill="#EAE7F1"/>
+  <circle cx="534" cy="88" r="50" fill="#F2E8D8"/>
+  <circle cx="534" cy="88" r="26" fill="#C2A67E"/>
+  <circle cx="176" cy="272" r="60" fill="#2D3E2F"/>
+  <circle cx="464" cy="272" r="60" fill="#2D3E2F"/>
+  <rect x="160" y="200" width="320" height="128" rx="64" fill="#2D3E2F"/>
+  <rect x="222" y="252" width="76" height="24" rx="9" fill="#7C8D74"/>
+  <rect x="248" y="226" width="24" height="76" rx="9" fill="#7C8D74"/>
+  <circle cx="392" cy="240" r="15" fill="#C2A67E"/>
+  <circle cx="426" cy="266" r="15" fill="#5E9E44"/>
+  <circle cx="392" cy="292" r="15" fill="#7C8D74"/>
+  <rect x="330" y="250" width="34" height="12" rx="6" fill="#5E9E44"/>
+  <path d="M92 168l16 32 36 6-26 26 6 36-32-17-32 17 6-36-26-26 36-6z" fill="#C2A67E" opacity="0.55"/>
+  <circle cx="126" cy="112" r="10" fill="#5E9E44"/>
+</svg>

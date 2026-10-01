@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori fotografi dan kreasi konten">
+  <rect width="640" height="440" fill="#ECE9E2"/>
+  <circle cx="124" cy="96" r="54" fill="#F2E8D8"/>
+  <circle cx="124" cy="96" r="30" fill="#C2A67E"/>
+  <rect x="170" y="160" width="300" height="180" rx="26" fill="#2D3E2F"/>
+  <rect x="248" y="122" width="96" height="46" rx="13" fill="#2D3E2F"/>
+  <circle cx="320" cy="250" r="74" fill="#F5F0EB"/>
+  <circle cx="320" cy="250" r="54" fill="#7C8D74"/>
+  <circle cx="320" cy="250" r="27" fill="#2D3E2F"/>
+  <circle cx="304" cy="234" r="11" fill="#F5F0EB" opacity="0.75"/>
+  <circle cx="430" cy="196" r="14" fill="#C2A67E"/>
+  <rect x="198" y="188" width="48" height="18" rx="9" fill="#5E9E44"/>
+  <circle cx="320" cy="138" r="6" fill="#5E9E44"/>
+  <path d="M508 148v34M491 165h34" stroke="#C2A67E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M548 300v34M531 317h34" stroke="#7C8D74" stroke-width="6" stroke-linecap="round"/>
+  <rect x="196" y="368" width="248" height="12" rx="6" fill="#D8D2C6"/>
+</svg>

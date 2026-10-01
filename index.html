@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIRCLA · Rental. Share. Reuse. Sustain.</title>
+  <meta name="description" content="Circla adalah platform rental barang peer-to-peer yang mendukung gaya hidup berkelanjutan lewat ekonomi sirkular. Sewa barang yang kamu butuhkan, kurangi limbah, perpanjang siklus hidup produk.">
+  <meta name="theme-color" content="#2D3E2F">
+  <link rel="icon" type="image/svg+xml" href="asset/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigasi utama">
+        <a class="brand" href="index.html">
+          <img class="brand__mark" src="asset/img/logo.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">Circla</span>
+            <span class="brand__sub">Circular Economy and Sharing</span>
+          </span>
+        </a>
+
+        <ul class="nav__links" id="nav-links">
+          <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav__link" href="katalog.html">Katalog Sewa</a></li>
+          <li><a class="nav__link" href="mitra.html">Layanan Mitra</a></li>
+          <li><a class="nav__link" href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="nav__actions">
+          <a class="btn btn--primary btn--sm" href="katalog.html">Mulai Sewa Sekarang</a>
+          <button class="nav__burger" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-links">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__copy">
+            <span class="eyebrow reveal">Rent • Reuse • Reduce • Together</span>
+            <h1 class="reveal" data-delay="1">Good Things <span class="accent">Go Around</span></h1>
+            <p class="lead reveal" data-delay="2">
+              Circla adalah platform rental barang yang mendukung gaya hidup berkelanjutan
+              melalui sistem berbagi. Sewa barang yang kamu butuhkan, kurangi limbah,
+              perpanjang siklus hidup produk.
+            </p>
+
+            <div class="hero__cta reveal" data-delay="3">
+              <a class="btn btn--primary btn--lg" href="katalog.html">Jelajahi Katalog</a>
+              <a class="btn btn--outline btn--lg" href="mitra.html">Punya barang? Sewakan</a>
+            </div>
+
+            <p class="hero__highlight reveal" data-delay="4">Less Waste • More Sharing • Greater Impact</p>
+
+            <div class="hero__stats reveal" data-delay="5">
+              <div>
+                <div class="stat__num">39+</div>
+                <div class="stat__label">Barang siap sewa</div>
+              </div>
+              <div>
+                <div class="stat__num">6</div>
+                <div class="stat__label">Kategori lengkap</div>
+              </div>
+              <div>
+                <div class="stat__num">100%</div>
+                <div class="stat__label">Terverifikasi KYC</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal" data-delay="2">
+            <div class="collage">
+              <div class="collage__card collage__card--a">
+                <img src="asset/img/cat-outdoor.svg" alt="Ilustrasi perlengkapan outdoor Circla">
+              </div>
+              <div class="collage__card collage__card--b">
+                <img src="asset/img/cat-photography.svg" alt="Ilustrasi kamera dan alat konten Circla">
+              </div>
+              <div class="collage__card collage__card--c">
+                <img src="asset/img/cat-event.svg" alt="Ilustrasi perlengkapan acara Circla">
+              </div>
+              <span class="collage__badge">Same items, new stories ♡</span>
+              <span class="collage__note">Less Waste • More Sharing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= SEARCH WIDGET ================= -->
+        <form class="searchbar reveal" data-hero-search novalidate>
+          <div class="field">
+            <label class="field__label" for="hero-q">Cari produk</label>
+            <input class="input" id="hero-q" type="search" data-hero-query
+                   placeholder="Kamera, bor, tenda, sound system, tripod...">
+          </div>
+          <div class="field">
+            <label class="field__label" for="hero-cat">Kategori</label>
+            <select class="select" id="hero-cat" data-hero-category>
+              <option value="">Semua Kategori</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="field__label" for="hero-from">Tanggal mulai</label>
+            <input class="input" id="hero-from" type="date" data-hero-from>
+          </div>
+          <div class="field">
+            <label class="field__label" for="hero-to">Tanggal selesai</label>
+            <input class="input" id="hero-to" type="date" data-hero-to>
+          </div>
+          <button class="btn btn--eco" type="submit">Cari Ketersediaan</button>
+        </form>
+
+        <div class="trust-strip reveal">
+          <span class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 3l7 3v6c0 4.6-3 8.2-7 9-4-.8-7-4.4-7-9V6z"/><path d="M9 12l2 2 4-4"/>
+            </svg>
+            100% Terverifikasi KYC
+          </span>
+          <span class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="4" y="10" width="16" height="10" rx="3"/><path d="M8 10V8a4 4 0 0 1 8 0v2"/>
+            </svg>
+            Escrow Protection (Jaminan Aman)
+          </span>
+          <span class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/>
+            </svg>
+            Pengiriman Instan &amp; COD
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5-STEP WORKFLOW ================= -->
+    <section class="section section--soft" id="cara-kerja">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">Alur Kerja Sirkular</span>
+          <h2 class="reveal" data-delay="1">Lima Langkah, Satu Siklus yang Berputar</h2>
+          <p class="lead reveal" data-delay="2">
+            Dari menemukan barang sampai mengembalikannya, setiap langkah dirancang
+            agar aman untuk penyewa dan menguntungkan untuk pemilik barang.
+          </p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal" data-delay="1">
+            <span class="step__icon" aria-hidden="true">🧭</span>
+            <div class="step__num">1</div>
+            <h3>Pilih Barang</h3>
+            <p>Pilih merek dan kelas sesuai kebutuhanmu, dari kelas pemula sampai pro.</p>
+          </li>
+          <li class="step reveal" data-delay="2">
+            <span class="step__icon" aria-hidden="true">🔒</span>
+            <div class="step__num">2</div>
+            <h3>Pesan &amp; Sewa</h3>
+            <p>Pembayaran aman dengan proteksi rekening bersama (escrow) Circla.</p>
+          </li>
+          <li class="step reveal" data-delay="3">
+            <span class="step__icon" aria-hidden="true">✨</span>
+            <div class="step__num">3</div>
+            <h3>Gunakan dengan Bijak</h3>
+            <p>Fungsi maksimal tanpa beban kepemilikan dan tanpa biaya perawatan.</p>
+          </li>
+          <li class="step reveal" data-delay="4">
+            <span class="step__icon" aria-hidden="true">📦</span>
+            <div class="step__num">4</div>
+            <h3>Kembalikan Tepat Waktu</h3>
+            <p>Inspeksi fisik bersama mitra dan pengembalian deposit secara instan.</p>
+          </li>
+          <li class="step reveal" data-delay="5">
+            <span class="step__icon" aria-hidden="true">♻️</span>
+            <div class="step__num">5</div>
+            <h3>Dukung Keberlanjutan</h3>
+            <p>Setiap transaksi memperpanjang usia pakai produk dan mengurangi limbah.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= CATEGORY PREVIEW ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">Kategori Populer</span>
+          <h2 class="reveal" data-delay="1">Jelajahi Enam Kotak Kebutuhan</h2>
+          <p class="lead reveal" data-delay="2">
+            Semua barang telah melewati seleksi kondisi dan kelengkapan sebelum
+            masuk ke katalog Circla.
+          </p>
+        </div>
+
+        <div class="cat-grid" data-category-grid></div>
+
+        <div class="cta-row cta-row--center reveal">
+          <a class="btn btn--primary btn--lg" href="katalog.html">Lihat Katalog Lengkap</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECURITY ================= -->
+    <section class="section section--soft" id="keamanan">
+      <div class="container">
+        <div class="split">
+          <div>
+            <span class="eyebrow reveal">Keamanan</span>
+            <h2 class="reveal" data-delay="1">KYC &amp; Escrow Protection</h2>
+            <p class="lead reveal" data-delay="2">
+              Kepercayaan adalah mata uang utama di Circla. Setiap penyewa melewati
+              verifikasi identitas, dan setiap pembayaran ditahan di rekening bersama
+              sampai barang kembali dengan aman.
+            </p>
+            <div class="trust-strip reveal" data-delay="3">
+              <span class="trust-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M12 3l7 3v6c0 4.6-3 8.2-7 9-4-.8-7-4.4-7-9V6z"/><path d="M9 12l2 2 4-4"/>
+                </svg>
+                Verifikasi KTP penyewa
+              </span>
+              <span class="trust-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="4" y="10" width="16" height="10" rx="3"/><path d="M8 10V8a4 4 0 0 1 8 0v2"/>
+                </svg>
+                Deposit ditahan aman
+              </span>
+            </div>
+          </div>
+
+          <ul class="value-list">
+            <li class="value-item reveal" data-delay="1">
+              <span class="value-item__num">01</span>
+              <div>
+                <h3>Identitas penyewa diverifikasi</h3>
+                <p>Setiap pengajuan sewa melampirkan identitas yang dicek oleh tim Circla sebelum disetujui.</p>
+              </div>
+            </li>
+            <li class="value-item reveal" data-delay="2">
+              <span class="value-item__num">02</span>
+              <div>
+                <h3>Dana ditahan, bukan langsung cair</h3>
+                <p>Biaya sewa dan deposit keamanan disimpan Circla sampai barang dikembalikan sesuai kondisi.</p>
+              </div>
+            </li>
+            <li class="value-item reveal" data-delay="3">
+              <span class="value-item__num">03</span>
+              <div>
+                <h3>Inspeksi bersama saat serah terima</h3>
+                <p>Kondisi barang dicatat saat pengambilan dan pengembalian, sehingga keduanya terlindungi.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LENDER / PARTNER CTA ================= -->
+    <section class="section" id="mitra-cta">
+      <div class="container">
+        <div class="banner banner--eco reveal">
+          <div>
+            <span class="eyebrow">Layanan Mitra Pemilik</span>
+            <h2>Punya Barang Jarang Dipakai? Dapatkan Uang Tambahan!</h2>
+            <p>
+              Lindungi barangmu dengan verifikasi identitas penyewa dan jaminan deposit
+              aman bersama Circla. Kamu menentukan tarif, kami mengurus prosesnya.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn--light btn--lg" href="mitra.html">Daftarkan Barang Anda Sekarang</a>
+            </div>
+          </div>
+
+          <ul class="banner__list">
+            <li class="banner__item">
+              <span class="banner__icon" aria-hidden="true">📷</span>
+              <div>
+                <strong>Listing barang gratis</strong>
+                <span>Unggah foto dan tentukan tarif sewa harianmu sendiri.</span>
+              </div>
+            </li>
+            <li class="banner__item">
+              <span class="banner__icon" aria-hidden="true">🛡️</span>
+              <div>
+                <strong>Proteksi penuh</strong>
+                <span>Identitas penyewa diverifikasi (KYC) dan dilindungi deposit keamanan.</span>
+              </div>
+            </li>
+            <li class="banner__item">
+              <span class="banner__icon" aria-hidden="true">💳</span>
+              <div>
+                <strong>Terima pembayaran</strong>
+                <span>Uang sewa langsung cair ke rekeningmu setelah barang selesai digunakan.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section--soft" id="faq">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">FAQ</span>
+          <h2 class="reveal" data-delay="1">Pertanyaan yang Sering Diajukan</h2>
+        </div>
+
+        <div class="faq">
+          <details class="reveal" open>
+            <summary>Bagaimana cara menyewa barang di Circla?</summary>
+            <p>Pilih barang di halaman Katalog Sewa, klik “Sewa Sekarang”, lalu isi formulir reservasi
+              (nama, nomor WhatsApp, tanggal sewa, dan unggah identitas untuk simulasi KYC).
+              Tim Circla akan mengonfirmasi ketersediaan dan detail pembayaran lewat WhatsApp.</p>
+          </details>
+          <details class="reveal" data-delay="1">
+            <summary>Apa itu deposit keamanan dan kapan dikembalikan?</summary>
+            <p>Deposit keamanan adalah dana jaminan yang ditahan Circla (escrow) selama masa sewa.
+              Setelah barang dikembalikan dan inspeksi fisik dinyatakan sesuai, deposit dikembalikan
+              penuh kepada penyewa maksimal 1×24 jam.</p>
+          </details>
+          <details class="reveal" data-delay="2">
+            <summary>Bagaimana cara menjadi mitra pemilik barang?</summary>
+            <p>Buka halaman Layanan Mitra, isi formulir pendaftaran barang dengan nama barang,
+              kategori, estimasi harga sewa harian, dan kontak pemilik. Tim Circla akan
+              memverifikasi dan menghubungimu untuk proses listing.</p>
+          </details>
+          <details class="reveal" data-delay="3">
+            <summary>Apakah barang bisa dikirim ke lokasi saya?</summary>
+            <p>Bisa. Saat reservasi kamu dapat memilih metode COD / ambil sendiri atau
+              ekspedisi instan. Biaya pengiriman akan diinformasikan terpisah sesuai jarak.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT BAND ================= -->
+    <section class="section section--tight" id="kontak">
+      <div class="container">
+        <div class="contact-band reveal">
+          <div>
+            <span class="eyebrow">Layanan Pelanggan</span>
+            <h3>Butuh bantuan memilih barang yang tepat?</h3>
+            <p>Tim Circla siap membantu dari pemilihan barang, pengiriman, sampai proses pengembalian.</p>
+          </div>
+          <div class="contact-band__side">
+            <div class="hotline" data-hotline>+62 896-7693-6012</div>
+            <div class="hotline-sub">Operasional 08.00 – 21.00 WIB</div>
+            <a class="btn btn--eco" data-hotline-link data-whatsapp
+               href="https://wa.me/6289676936012?text=Halo%20Admin%20Circla,%20saya%20ingin%20tanya%20seputar%20sewa%20barang"
+               target="_blank" rel="noopener">Chat CS Circla</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <img class="brand__mark" src="asset/img/logo.svg" alt="" width="44" height="44">
+            <span class="brand__text">
+              <span class="brand__name">Circla</span>
+              <span class="brand__sub">Circular Economy and Sharing</span>
+            </span>
+          </a>
+          <p class="footer__tagline">Rental. Share. Reuse. Sustain.</p>
+          <p class="footer__desc">
+            Sewa Barang, Kurangi Limbah, Maksimalkan Manfaat.
+            Why buy it when you can use it?
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Jelajahi</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="katalog.html">Katalog Sewa</a></li>
+            <li><a href="mitra.html">Layanan Mitra</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Bantuan</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#keamanan">Syarat &amp; Ketentuan Escrow</a></li>
+            <li><a href="mitra.html">Cara Jadi Mitra Pemilik</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="index.html#kontak">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Hubungi Kami</h4>
+          <ul class="footer__list">
+            <li><a data-hotline-link data-whatsapp
+                   href="https://wa.me/6289676936012?text=Halo%20Admin%20Circla,%20saya%20ingin%20tanya%20seputar%20sewa%20barang"
+                   target="_blank" rel="noopener">+62 896-7693-6012</a></li>
+            <li><span>Operasional 08.00 – 21.00 WIB</span></li>
+          </ul>
+          <div class="footer__social">
+            <a href="katalog.html" aria-label="Katalog Circla">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/>
+                <rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/>
+              </svg>
+            </a>
+            <a data-hotline-link data-whatsapp
+               href="https://wa.me/6289676936012?text=Halo%20Admin%20Circla,%20saya%20ingin%20tanya%20seputar%20sewa%20barang"
+               target="_blank" rel="noopener" aria-label="WhatsApp Circla">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true">
+                <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.4-.2-2.6.7.7-2.5-.2-.4A8 8 0 0 1 12 4Z"
+            <path d="M9.4 7.6c.3 0 .6.1.8.5l.8 1.8c.1.2.1.4-.1.6l-.5.6c-.1.2-.2.3 0 .6a7 7 0 0 0 2.6 2.6c.3.2.5.1.6 0l.6-.6c.2-.2.4-.2.6-.1l1.8.8c.4.2.5.4.5.7 0 .8-.7 1.7-1.7 1.8-.6.1-1.4.1-3-.6a10 10 0 0 1-4.2-4.2c-.7-1.6-.7-2.4-.6-3 .1-1 1-1.7 1.8-1.7Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-brand-year>2026</span> CIRCLA Indonesia. All rights reserved.</span>
+        <span>Dibuat oleh mahasiswa Manajemen Universitas Pendidikan Indonesia.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING WHATSAPP ================= -->
+  <a class="fab" data-hotline-link data-whatsapp
+     href="https://wa.me/6289676936012?text=Halo%20Admin%20Circla,%20saya%20ingin%20tanya%20seputar%20sewa%20barang"
+     target="_blank" rel="noopener" aria-label="Chat CS Circla via WhatsApp">
+    <span class="fab__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.4-.2-2.6.7.7-2.5-.2-.4A8 8 0 0 1 12 4Z"
+            <path d="M9.4 7.6c.3 0 .6.1.8.5l.8 1.8c.1.2.1.4-.1.6l-.5.6c-.1.2-.2.3 0 .6a7 7 0 0 0 2.6 2.6c.3.2.5.1.6 0l.6-.6c.2-.2.4-.2.6-.1l1.8.8c.4.2.5.4.5.7 0 .8-.7 1.7-1.7 1.8-.6.1-1.4.1-3-.6a10 10 0 0 1-4.2-4.2c-.7-1.6-.7-2.4-.6-3 .1-1 1-1.7 1.8-1.7Z"/>
+      </svg>
+    </span>
+    <span class="fab__text">Chat CS Circla</span>
+  </a>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

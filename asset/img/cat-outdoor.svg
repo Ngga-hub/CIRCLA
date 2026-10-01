@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori outdoor dan travel">
+  <rect width="640" height="440" fill="#E7EFE0"/>
+  <circle cx="512" cy="104" r="58" fill="#F2E8D8"/>
+  <circle cx="512" cy="104" r="34" fill="#C2A67E"/>
+  <path d="M0 336h640v104H0z" fill="#D3E1C6"/>
+  <path d="M40 336l116-146 116 146z" fill="#C9D9BB"/>
+  <path d="M410 336l108-130 108 130z" fill="#C9D9BB"/>
+  <rect x="96" y="256" width="12" height="82" rx="5" fill="#B0C09F"/>
+  <path d="M102 244l30 62H72z" fill="#7C8D74"/>
+  <path d="M102 274l24 52H78z" fill="#8FA184"/>
+  <rect x="524" y="262" width="12" height="76" rx="5" fill="#B0C09F"/>
+  <path d="M530 250l28 58h-56z" fill="#7C8D74"/>
+  <path d="M188 340l132-178 132 178z" fill="#2D3E2F"/>
+  <path d="M320 162l132 178H188z" fill="#2D3E2F"/>
+  <path d="M280 340l40-92 40 92z" fill="#5E9E44"/>
+  <circle cx="320" cy="140" r="9" fill="#7C8D74"/>
+  <path d="M150 118c14-10 26-10 40 0" fill="none" stroke="#C2A67E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M186 92c14-10 26-10 40 0" fill="none" stroke="#C2A67E" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="88" cy="368" r="6" fill="#5E9E44"/>
+  <circle cx="560" cy="382" r="6" fill="#C2A67E"/>
+</svg>

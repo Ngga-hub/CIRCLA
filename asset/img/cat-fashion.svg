@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Ilustrasi kategori mode dan aksesori">
+  <rect width="640" height="440" fill="#F1E7E3"/>
+  <circle cx="540" cy="92" r="52" fill="#F2E8D8"/>
+  <circle cx="540" cy="92" r="28" fill="#C2A67E"/>
+  <path d="M320 118V102a17 17 0 1 1 17 17v11" fill="none" stroke="#C2A67E" stroke-width="9" stroke-linecap="round"/>
+  <path d="M242 176l78-58 78 58z" fill="#C2A67E"/>
+  <path d="M242 176h156l32 168H210z" fill="#2D3E2F"/>
+  <path d="M320 176v168" stroke="#7C8D74" stroke-width="4" opacity="0.55"/>
+  <circle cx="320" cy="214" r="10" fill="#F5F0EB"/>
+  <circle cx="296" cy="232" r="6" fill="#F5F0EB" opacity="0.7"/>
+  <circle cx="344" cy="232" r="6" fill="#F5F0EB" opacity="0.7"/>
+  <circle cx="112" cy="292" r="14" fill="#5E9E44"/>
+  <circle cx="146" cy="330" r="9" fill="#C2A67E"/>
+  <path d="M64 176h44M86 154v44" stroke="#7C8D74" stroke-width="7" stroke-linecap="round"/>
+</svg>
